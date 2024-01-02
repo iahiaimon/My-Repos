@@ -1,0 +1,190 @@
+@media only screen and (min-width:501px) and (max-width:930px) {
+
+  .nav-list {
+    right: 35px;
+  }
+
+  div .rightnav {
+    justify-content: space-around;
+    right: 20px;
+  }
+
+  div .rightnav p {
+    position: relative;
+    right: 50px;
+    font-size: 1.2rem;
+  }
+
+  .rightnav img {
+    right: 50px;
+  }
+
+  .nav-list li {
+    margin: 04px;
+    padding: 02px;
+  }
+
+
+}
+
+
+@media only screen and (max-width:500px) {
+
+  .navbar {
+    flex-direction: column;
+    height: 200px;
+  }
+
+
+  div .burger {
+    display: block;
+  }
+
+  div .rightnav {
+    width: 100%;
+    padding: 0;
+  }
+
+  .rightnav p {
+    width: 70%;
+    font-size: 1rem;
+    display: flex;
+  }
+
+  .rightnav img {
+    width: 37px;
+    height: 37px;
+    border: 1px solid blue;
+  }
+
+  .nav-list {
+    flex-direction: column;
+  }
+
+
+
+  .frist_section {
+    flex-direction: column;
+    border: none;
+    margin: 8px;
+    margin-top: 30px;
+
+  }
+
+  .rightsec {
+    width: 80%;
+  }
+
+  .leftsec {
+    width: 100%;
+  }
+
+  .leftsec .intro {
+    font-size: 2rem;
+  }
+
+  hr {
+    margin: 60px 20px;
+  }
+
+
+
+  .second_section {
+    border: none;
+    margin: 0 5px;
+    padding: 7px;
+  }
+
+
+  .third_section {
+    border: none;
+    margin: 0 5px;
+    padding: 7px;
+
+  }
+
+
+  .fourth_section {
+    border: none;
+    margin: 0 5px;
+    padding: 7px;
+
+  }
+
+
+
+  .title {
+    flex-direction: column;
+  }
+
+  .title img {
+    right: 0;
+  }
+
+
+  .title img.gmail {
+    right: 0;
+  }
+
+  .title img.fb {
+    right: 0;
+  }
+
+  .title img.yt {
+    right: 0;
+  }
+
+  .title img.game {
+    right: 0;
+  }
+
+
+  .title p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  div .desc {
+    font-size: 16px;
+  }
+
+
+
+  div .story {
+    font-size: 16px;
+    line-height: .63cm;
+  }
+
+  .see {
+    font-size: 14px;
+  }
+
+
+
+
+  .heading {
+    margin: 33px 10px;
+  }
+
+  .para {
+    font-size: 16px;
+    line-height: .6cm;
+  }
+
+
+  div .copyright {
+    font-size: 11px;
+  }
+
+
+
+  .v-class {
+    opacity: 0;
+
+  }
+
+  .h-nav {
+    height: 56px;
+  }
+}
